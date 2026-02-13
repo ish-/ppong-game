@@ -1,0 +1,16 @@
+{
+  "name": "spinning-oort",
+  "short_name": "Oort",
+  "start_url": "/",
+  "display": "fullscreen",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "orientation": "landscape",
+  "icons": [
+    {
+      "src": "vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

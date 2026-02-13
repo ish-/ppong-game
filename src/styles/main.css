@@ -1,0 +1,43 @@
+:root {
+  --bg-color: #0f172a;
+  --field-color: #1e293b;
+  --wall-color: #334155;
+  --ball-color: #f8fafc;
+  --paddle-color: #38bdf8;
+  --text-color: #f1f5f9;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  height: -webkit-fill-available;
+  overflow: hidden;
+  overscroll-behavior: none;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+  background-color: var(--bg-color);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+/* Base styles for alternative BEM */
+.Game {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background-color: var(--field-color);
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  touch-action: none;
+}
